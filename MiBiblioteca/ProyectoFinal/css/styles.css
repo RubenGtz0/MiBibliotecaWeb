@@ -1,0 +1,120 @@
+/* Estilos para el fondo y colores */
+body {
+    background-color: #4C3D3D;
+    color: #FFF7D4;
+}
+
+.navbar {
+    background-color: #C07F00;
+    border-bottom: 2px solid #FFD95A; /* Línea inferior para destacar el navbar */
+}
+
+.navbar-brand {
+    color: #FFF7D4 !important; /* Color del texto del logotipo */
+    font-weight: bold; /* Texto del logotipo en negrita */
+}
+
+.navbar-toggler-icon {
+    background-color: #FFF7D4; /* Color del ícono del botón de menú */
+}
+
+.navbar-nav .nav-link {
+    color: #FFF7D4 !important; /* Color del texto del enlace en el navbar */
+    font-weight: bold; /* Texto del enlace en negrita */
+}
+
+/* Estilos para las imágenes de portada con efecto de acercamiento */
+.img-cover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-cover:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para las tarjetas de obras literarias */
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #FFF7D4; /* Color de fondo de la tarjeta */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #4C3D3D; /* Color del título */
+}
+
+.card-text {
+    color: #C07F00; /* Color del texto */
+}
+
+/* Estilos para el botón "Más detalles" */
+.btn-mas-detalles {
+    background-color: #4C3D3D; /* Fondo del botón */
+    color: #FFF; /* Color del texto del botón */
+    border: none;
+}
+
+.btn-mas-detalles:hover {
+    background-color: #C07F00; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilos específicos para la página de detalles */
+.book-details {
+    padding: 20px;
+}
+
+.book-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.book-details img:hover {
+    transform: scale(1.05);
+}
+
+.book-info {
+    margin-top: 20px;
+}
+
+.book-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4C3D3D; /* Color del título */
+}
+
+.book-author {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.book-genre {
+    color: #C07F00; /* Color del género */
+}
+
+.book-year {
+    color: #C07F00; /* Color del año de publicación */
+}
+
+.book-description {
+    margin-top: 20px;
+}
+
+.book-back-link {
+    margin-top: 30px;
+    background-color: #4C3D3D; /* Fondo del botón */
+    color: #FFF; /* Color del texto del botón */
+    border: none;
+}
+
+.book-back-link:hover {
+    background-color: #C07F00; /* Cambio de color al pasar el cursor */
+}
+/* Estilos personalizados para la lista de géneros */
+.custom-list-item {
+    background-color: #FFF7D4; /* Color de fondo personalizado */
+    color: #4C3D3D; /* Color de texto personalizado */
+    font-weight: bold; /* Texto en negrita */
+    border: none; /* Sin borde */
+}
